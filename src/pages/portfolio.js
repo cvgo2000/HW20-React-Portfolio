@@ -1,6 +1,13 @@
 import React from "react";
 import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import img1 from "../img/weatherdashboard.png"
+import img2 from "../img/dayplanner.png"
+import img3 from "../img/employeedirectoryscreen.png"
+import img4 from "../img/project1screen.png"
+import img5 from "../img/passwordgenerator.png"
+import img6 from "../img/purrfect-match.png"
+import resume from "../img/Resume.pdf"
 
 const portfolio = () => {
     return (
@@ -19,7 +26,7 @@ const portfolio = () => {
 
                             <div className="col-md-3">
                                 <a href="https://cvgo2000.github.io/HW06-Weather-Dashboard/">
-                                    <img src="img/weatherdashboard.png"
+                                    <img src={ img1 }
                                         className="card-img-top" alt="img-one" />
                                 </a>
                                 <p className="card-text">Weather Dashboard</p>
@@ -29,7 +36,7 @@ const portfolio = () => {
 
                             <div className="col-md-3">
                                 <a href="https://cvgo2000.github.io/HW05-Day-Planner/">
-                                    <img src="img/dayplanner.png"
+                                    <img src={ img2 }
                                         className="card-img-top" alt="img-two" />
                                 </a>
                                 <p className="card-text">Day Planner</p>
@@ -46,7 +53,7 @@ const portfolio = () => {
                             </div>
                             <div className="col-md-3">
                                 <a href="https://cvgo2000.github.io/HW12-Employee-Tracker/">
-                                    <img src="img/employeedirectoryscreen.png"
+                                    <img src={ img3 }
                                         className="card-img-top" alt="img-one" />
                                 </a>
                                 <p className="card-text">Employee Tracker</p>
@@ -57,8 +64,8 @@ const portfolio = () => {
 
                             </div>
                             <div className="col-md-3">
-                                <a href="https://github.com/enevarez-ops/projectOne">
-                                    <img src="img/project1screen.png"
+                                <a href="https://enevarez-ops.github.io/projectOne/">
+                                    <img src={ img4 }
                                         className="card-img-top" alt="img-one" />
                                 </a>
                                 <p className="card-text">Project-1</p>
@@ -73,7 +80,7 @@ const portfolio = () => {
                             <div className="col-md-1"></div>
                             <div className="col-md-3">
                                 <a href="https://cvgo2000.github.io/HW03-Password-Generator/">
-                                    <img src="./img/passwordgenerator.PNG"
+                                    <img src={ img5 }
                                         className="card-img-top" alt="img-one" />
                                 </a>
                                 <p className="card-text">Try: Password Generator</p>
@@ -86,7 +93,7 @@ const portfolio = () => {
 
                             <div className="col-md-3">
                                 <a href="https://mighty-sea-42900.herokuapp.com/">
-                                    <img src="./img/purrfect-match"
+                                    <img src={ img6 }
                                         className="card-img-top" alt="img-one" />
                                 </a>
                                 <p className="card-text">Project 2: The Purr-fect Match</p>
@@ -103,7 +110,7 @@ const portfolio = () => {
                             >https://www.linkedin.com/in/christian-go-6344251b6/</a></p>
                             <p>Email Address: cvgo2000@gmail.com</p>
                             <p>Phone Number:(720)329-4253</p>
-                            <a href="./img/Resume.pdf"
+                            <a href={ resume }
                             > Resume</a>
 
                         </div>
